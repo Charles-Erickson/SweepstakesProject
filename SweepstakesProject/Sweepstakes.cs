@@ -2,16 +2,25 @@
 using System.Collections.Generic;
 using System.Text;
 using SweepstakesProject;
+using Sweepstakes;
 
 namespace SweepstakesProject
 {
-    class Sweepstakes
+    public class Sweepstakes
     {
 
-        public contestant= Contestant();
+     
          
-        //public ContestantList= new Dictionary<int, Contestant>;
+        public Dictionary<int, Contestant> ContestantList= new Dictionary<int,Contestant>;
+        
 
+
+        public Sweepstakes()
+        {
+   
+        }
+
+        
 
 
         public void SweepStakes(string name)

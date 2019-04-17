@@ -4,16 +4,14 @@ using System.Text;
 
 namespace SweepstakesProject
 {
-    class MarketingFirm : ISweepstakesManager
+    class MarketingFirm 
     {
-        public Sweepstakes GetSweepstakes()
-        {
-            throw new NotImplementedException();
-        }
+     
 
-        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        public void ChooseStackOrQueue()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("")
         }
+        
     }
 }
