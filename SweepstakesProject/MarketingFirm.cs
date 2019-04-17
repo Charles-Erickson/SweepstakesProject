@@ -10,7 +10,7 @@ namespace SweepstakesProject
 
         public void ChooseStackOrQueue()
         {
-            Console.WriteLine("")
+            Console.WriteLine("");
         }
         
     }
