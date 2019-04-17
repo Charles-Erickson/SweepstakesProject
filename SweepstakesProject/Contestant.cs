@@ -14,14 +14,23 @@ namespace Sweepstakes
 
         public Contestant()
         {
-            RegistrationNumber = RegistrationNumber++;
+            
+        }
+
+
+        public void NewContestant()
+        {
             EnterFirstname();
             EnterLastname();
             EnterEmail();
+            GetRegistarNumber();
         }
 
-       
-        
+        public int GetRegistarNumber()
+        {
+            RegistrationNumber = RegistrationNumber++;
+            return RegistrationNumber;
+        }
 
         public string EnterFirstname()
         {
