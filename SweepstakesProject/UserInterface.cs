@@ -6,10 +6,6 @@ namespace SweepstakesProject
 {
     public abstract class UserInterface
     {
-        public interface INeedsInfo
-        {
-
-        }
 
     }
 }

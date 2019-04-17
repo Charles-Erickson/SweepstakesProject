@@ -7,12 +7,14 @@ namespace SweepstakesProject
 {
     class Sweepstakes
     {
+
+        public contestant= Contestant();
          
-        public ContestantList= new Dictionary<int, Contestant>;
+        //public ContestantList= new Dictionary<int, Contestant>;
 
 
 
-        public void SweeeStakes(string name)
+        public void SweepStakes(string name)
         {
 
         }
@@ -27,6 +29,10 @@ namespace SweepstakesProject
 
         }
 
+        void PrintContestantInfo(Contestant contestant)
+        {
+
+        }
 
 
 
