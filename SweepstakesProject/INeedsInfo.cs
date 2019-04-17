@@ -6,5 +6,8 @@ namespace SweepstakesProject
 {
     interface INeedsInfo
     {
+        string EnterFirstname();
+        string EnterLastname();
+        string EnterEmail();
     }
 }

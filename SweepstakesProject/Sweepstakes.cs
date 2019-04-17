@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SweepstakesProject;
 
 namespace SweepstakesProject
 {
     class Sweepstakes
     {
-        Contestant contestant = new Contestant();
-        public ContestantList= new Dictionary<int,Contestant>;
+         
+        public ContestantList= new Dictionary<int, Contestant>;
 
 
 
