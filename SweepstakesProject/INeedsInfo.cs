@@ -4,8 +4,7 @@ using System.Text;
 
 namespace SweepstakesProject
 {
-    class MarketingFirm
+    interface INeedsInfo
     {
-        
     }
 }
