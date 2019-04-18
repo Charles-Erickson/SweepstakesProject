@@ -8,6 +8,7 @@ namespace SweepstakesProject
     class MarketingFirm 
     {
         public SweepstakeStackManager sweepstakeStackManager = new SweepstakeStackManager();
+        public SweepstakesQueueManager sweepstakesQueueManager = new SweepstakesQueueManager();
 
 
         public void ChooseStackOrQueue()
@@ -18,17 +19,19 @@ namespace SweepstakesProject
             {
                 case "Stack":
                     data = "Stack";
-                    return data;
-
+                    
                 case "Queue":
                     data = "Queue";
-                    return data;
-
-
-                 
-        
-
-
+            }
+            if (data == "Stack")
+            {
+                sweepstakeStackManager.GetSweepstakes();
+                sweepstakeStackManager.InsertSweepstakes(Sweepstakes sweepstakes);
+            }
+            else if (data == "Queue")
+            {
+                sweepstakesQueueManager.GetSweepstakes();
+                sweepstakesQueueManager.InsertSweepstakes(Sweepstakes sweepstakes);
             }
         }
         
